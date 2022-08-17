@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery.min.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Método de Runge-Kutta (RK4)</h1>
+        <p id="exmetod">El método de Runge-Kutta permite hallar aproximaciones de una función desconocida, esta función desconocida es la solución de la ecuación diferencial en estudio.</p>
+        <h3 id="proposito">El programa aquí desarrollado busca encontrar aproximaciones de la ecuación solución de:</h3>
+        <img id="ecuaciondif" src="./img/ecuacion diferencial.png" alt="Ecuacion original">
+        <h3>Con los valores iníciales y(0) = 2. En el intervalo 0 &#8804; x &#8804; 1.</h3>
+        <br>
+        <p class="indent">Para ello se desarrolla un programa que aplica el método de Runge-Kutta, Este programa acepta como valor de entrada:</p>
+        <ul>
+           <br>
+            <ol><li>h = Altura con la cual se avanza en las aproximaciones. h debe tener un valor comprendido entre 0.1 a 0.5 . En el ejercicio se prueban con los valores h = 0.1 y h = 0.2 .</li></ol>
+        </ul>
+
+        <br>
+        <p class="indent">Una vez dado el parámetro h de entada se puede ejecutar el programa, el cual comparará los valores aproximados con los reales, e indicará la diferencia entre estos</p>
+        <br>
+        <p class="indent">
+            Finalmente se grafican las diferentes aproximaciones en forma de puntos rojos sobre la curva exacta, para visualizar la exactitud de las aproximaciones encontradas.
+        </p>
+    </main>
+
+    <div id="Entrada-h">
+        <label for="h-valor"> Recuerde que en notación internacional, para la notación decimal se usa el punto "." en vez de la ",".</label>
+        <div class="auto">
+            <input id="h-valor" type="number" step="0.01" placeholder="h = ?" required>
+            <button id="boton" type="button">Ejecutar</button>
+        </div>
+    </div> 
+
+    <section id="tabla">
+        <div class="leyenda">
+            <span>x</span>
+            <span>RK4</span>
+            <span>Exacto</span>
+            <span>Diferencia</span>
+        </div>
+
+        
+    </section>
+
+    <section id="aspecto">
+        <button id="graficar" type="button">Graficar</button>
+        <div id="container">
+            <!-- El tamaño del canvas lo cambio en el script  -->
+             <canvas id="fx" width="0" height="0"></canvas>
+        </div> 
+        <ul id="visual">
+                <li>La curva de color turquesa oscuro, representa la curva exacta. Solución de la ecuación diferencial en estudio.</li>
+                <li>Los puntos rojos, representan las  aproximaciones realizadas por el método de Runge-Kutta.  </li>
+        </ul>
+    </section>
+
+    <footer>
+       <div id="asignatura">
+           <h4>
+               <strong><span class="azuloscuro">Asignatura:</span> 337 Simulación de sistemas</strong>
+            </h4>
+            <h4>
+                <strong><span class="azuloscuro">Tutora:</span> Mari Carmen Ing New</strong>
+             </h4>
+       </div>
+       <div id="asignatura">
+        <h4>
+            <strong><span class="azuloscuro">Alumno:</span> Samuel Rodríguez V.27240851 
+                <a href="https://github.com/samuelpklm"><img src="./github.svg" alt=""></a>
+            </strong>
+         </h4>
+         <!-- <h4>
+             <strong>Tutora: Mari carmen Villegas</strong>
+          </h4> -->
+    </div>
+    </footer>
+   
+
+
+<script src='./main.js'></script>
+</body>
+</html>
