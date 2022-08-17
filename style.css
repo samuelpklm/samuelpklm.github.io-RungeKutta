@@ -131,7 +131,7 @@ footer{
     color: #000099;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 450px) {
     #tabla{
    font-size: 12px;
 }
