@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Ver solucion](https://github.com/samuelpklm/samuelpklm.github.io-RungeKutta)
+- Live Site URL: [Ver Pagina](https://samuelpklm.github.io/samuelpklm.github.io-RungeKutta/)
 
 ## My process
 
