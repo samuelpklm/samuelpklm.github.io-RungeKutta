@@ -48,7 +48,7 @@ h1{
 }
 
 #tabla{
-    width: 98%;
+    width: 100%;
 
     max-width: 700px;
     min-height: 30px;
@@ -60,6 +60,7 @@ h1{
     border-radius: 12px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    font-size:12px;
 }
 
 .leyenda{
