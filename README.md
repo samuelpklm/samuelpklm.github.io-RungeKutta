@@ -1,6 +1,5 @@
-# Frontend Mentor - FAQ accordion card solution
-
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Universidad Nacional Abierta - Simulacion de sistemas 337
+This is a page that applies the Runge-Kutta method to a specific differential equation. Destined to solve a university exercise for the subject 337 Simulation of systems.
 
 ## Table of contents
 
@@ -30,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Faq acordion](design./desktop-design.jpg)
+![Faq acordion](./Pagina.png)
 
 
 ### Links
@@ -52,12 +51,12 @@ Users should be able to:
 
 ### What I learned
 
-I learned to make animation with Jquery, and to make html structure easily adaptable to different device views.
+I learned to program the Runge-Kutta method.
 
 
 ### Useful resources
 
-- [Animacion con Jquery](http://www.w3bai.com/es/jquery/jquery_animate.html) - This helped me animate the different html components, as well as set their speed.
+- [Example Runge-Kutta js](https://es.acervolima.com/metodo-de-cuarto-orden-de-runge-kutta-para-resolver-ecuaciones-diferenciales/) - This page taught me how to apply the Runge-Kutta method in js.
 
 
 ## Author
@@ -65,7 +64,3 @@ I learned to make animation with Jquery, and to make html structure easily adapt
 - Website - [Samuel Rodriguez](https://github.com/samuelpklm)
 - Frontend Mentor - [@samuelpklm](https://www.frontendmentor.io/profile/samuelpklm)
 - Email - [@Samuel Rodriguez](samuelr76@gmail.com)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
