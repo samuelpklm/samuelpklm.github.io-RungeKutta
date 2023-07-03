@@ -36,7 +36,7 @@ Users should be able to:
 
 - Solution URL: [Ver solucion](https://github.com/samuelpklm/samuelpklm.github.io-RungeKutta)
 - Live Site URL: [Ver Pagina](https://samuelpklm.github.io/samuelpklm.github.io-RungeKutta/)
-- - Trabajo URL: [Ver pdf](https://drive.google.com/file/d/1Al-Va2uTMJMF6QpYk6GrzecsKOSfOjWL/view?usp=drive_link)
+- Trabajo URL: [Ver pdf](https://drive.google.com/file/d/1Al-Va2uTMJMF6QpYk6GrzecsKOSfOjWL/view?usp=drive_link)
 
 ## My process
 
